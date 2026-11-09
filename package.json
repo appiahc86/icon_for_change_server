@@ -1,0 +1,35 @@
+{
+  "name": "icon-of-change-api",
+  "version": "1.0.0",
+  "description": "Backend API for Icon of Change LGB Ghana NGO",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "ngo",
+    "donations",
+    "paystack",
+    "nodejs"
+  ],
+  "author": "Icon of Change LGB Ghana",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "morgan": "^1.10.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.14.4",
+    "node-cron": "^4.2.1",
+    "uuid": "^13.0.0",
+    "winston": "^3.17.0"
+  }
+}
